@@ -44,15 +44,9 @@ class Hero extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
-                    <img
-                      alt="..."
-                      className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
-                      style={{ width: "200px" }}
-                    />
-                    <p className="lead text-white">
+                    <h1 className="text-white">
                       A hackathon project.
-                    </p>
+                    </h1>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
