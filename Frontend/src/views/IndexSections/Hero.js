@@ -15,7 +15,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+//adding file uploader package
+import React, { useRef } from 'react';
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
@@ -56,7 +57,7 @@ class Hero extends React.Component {
                       >
 
                         <span className="btn-inner--text">Upload File</span>
-                      </Button>{"      "}
+                      </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
@@ -128,6 +129,7 @@ class Hero extends React.Component {
 }
 
 export default Hero;
+
 
 /**
  * Code for Icond on all buttons
