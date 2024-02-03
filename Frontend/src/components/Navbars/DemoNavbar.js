@@ -123,6 +123,8 @@ class DemoNavbar extends React.Component {
                   </NavItem>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                  
+                  
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
@@ -139,6 +141,58 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
+                  
+                </Nav>
+              </UncontrolledCollapse>
+            </Container>
+          </Navbar>
+        </header>
+      </>
+    );
+  }
+}
+
+export default DemoNavbar;
+
+/**
+ * facebook and other links code
+ <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.instagram.com/creativetimofficial"
+                      id="tooltip356693867"
+                      target="_blank"
+                    >
+                      <i className="fa fa-instagram" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Instagram
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip356693867">
+                      Follow us on Instagram
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://twitter.com/creativetim"
+                      id="tooltip184698705"
+                      target="_blank"
+                    >
+                      <i className="fa fa-twitter-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Twitter
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip184698705">
+                      Follow us on Twitter
+                    </UncontrolledTooltip>
+                  </NavItem>
+ */
+
+/**
+ * 
+ * Download Button 
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
@@ -154,14 +208,4 @@ class DemoNavbar extends React.Component {
                       </span>
                     </Button>
                   </NavItem>
-                </Nav>
-              </UncontrolledCollapse>
-            </Container>
-          </Navbar>
-        </header>
-      </>
-    );
-  }
-}
-
-export default DemoNavbar;
+ */
