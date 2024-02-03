@@ -54,10 +54,31 @@ class Hero extends React.Component {
                         href=""
                         size="lg"
                       >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
-                        </span>
+
                         <span className="btn-inner--text">Upload File</span>
+                      </Button>{"      "}
+                      <Button
+                        className="btn-icon mb-3 mb-sm-0"
+                        color="github"
+                        href=""
+                        size="lg"
+                        target="_blank"
+                      >
+                        
+                        <span className="btn-inner--text">
+                          <span className="text-warning mr-1">Clean data</span>
+                        </span>
+                      </Button>
+                    </div>
+                    <div className="btn-wrapper mt-5">
+                      <Button
+                        className="btn-white btn-icon mb-3 mb-sm-0"
+                        color="default"
+                        href=""
+                        size="lg"
+                      >
+                        
+                        <span className="btn-inner--text">Delete</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
@@ -67,23 +88,17 @@ class Hero extends React.Component {
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-github" />
+                        
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Clean data</span>
+                          <span className="text-warning mr-1">Keep</span>
                         </span>
                       </Button>
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        proudly coded by
+                        proudly coded by <b><u>Team Duplexa</u></b>
                       </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>
@@ -113,3 +128,21 @@ class Hero extends React.Component {
 }
 
 export default Hero;
+
+/**
+ * Code for Icond on all buttons
+                         <span className="btn-inner--icon mr-1">
+                          <i className="ni ni-cloud-download-95" />
+                        </span>
+
+  <span className="btn-inner--icon mr-1">
+                          <i className="fa fa-github" />
+                        </span>
+
+  <span className="btn-inner--icon mr-1">
+                          <i className="ni ni-cloud-download-95" />
+                        </span>
+
+                        Did not remove the span section for keep because its giving some visual error(not syntax)
+                        
+ */
