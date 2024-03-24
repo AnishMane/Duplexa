@@ -3,7 +3,7 @@
 **Description:**  
 Data Redundancy Removal Algorithm is a project aimed at efficiently removing data redundancy from large datasets. The backend is implemented in Python, utilizing the XXHash algorithm to identify and eliminate redundant data. The frontend is developed using ReactJS, providing users with a user-friendly interface to manage and visualize the data.
 
-### Our PPT for Bhuvan ISRO Hackathon - [Duplexa.pdf](https://github.com/AnishMane/Duplexa/files/14734767/Duplexa.pdf)
+### 📄 Our PPT for Bhuvan ISRO Hackathon - [Duplexa.pdf](https://github.com/AnishMane/Duplexa/files/14734767/Duplexa.pdf)
 
 
 ## Table of Contents
