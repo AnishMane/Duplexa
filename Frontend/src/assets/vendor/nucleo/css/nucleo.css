@@ -319,11 +319,11 @@ License - nucleoapp.com/license/
 .ni-circle-08::before {
     content: "\ea27";
 }
-
+/**
 .ni-cloud-download-95::before {
     content: "\ea28";
 }
-
+**/
 .ni-cloud-upload-96::before {
     content: "\ea29";
 }
